@@ -41,8 +41,8 @@ class Solution(object):
             else:
                 return [dic[remaining],index]
 ```
-    - **难点**： 
-        - dictionary
+- **难点**： 
+    - dictionary
 
 - **Note**: if >=2 same numbers in nums, there will be a runtime error: Solution either does not exist or is not unique
 - 暴力搜索
