@@ -77,4 +77,5 @@ def reverse(self, x):
     - [1,-1] is an array. When x <0, it means we will pick #1 element of [1,-1], which is '-1'. Otherwise, when x >0, [x<0] will be false, which is 0. Then, we will pick #0 element of [1,-1], which is '+1'. It is a very tricky and smart way to solve for sign of an integer.
   - ```abs(x)``` gets absolute x, |x|
   - ```str(x)[::-1]``` transform the data type of variable x to ```str``` (make x a string), and **reverse** string x
+    - a[::-1]相当于 a[-1:-len(a)-1:-1]，也就是从最后一个元素到第一个元素复制一遍，即倒序。
   - ```-(2**31)-1 < rst < 2**31``` 
